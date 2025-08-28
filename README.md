@@ -11,7 +11,14 @@ sh ./.devcontainer/install.sh
 
 ## Github Codespace
 
-It should build automatically
+Create a normal github codespace. By default, the standard RTL design tools are included.
+
+### Options
+
+1. RISCV Compiler Toolchain: .devcontainer/install_riscv_compiler_tools.sh
+2. Conformance Tests: .devcontainer/install_uv_python_and_test_enf.sh
+   1. Installs uv
+   2. Installs spike and pk
 
 ## Mac / Native Windows / WSL Windows
 
